@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 
 export default function App() {
   return (
-    <View style={styles.conteiner}>
+    <View style={styles.container}>
       <Text style={styles.welcome}>Welcome to React Native</Text>
       <Text style={styles.welcome}>Abaixo 1ss1 </Text>
       <Text style={styles.welcome}>Abaixo 1ss2 </Text>
