@@ -10,6 +10,9 @@ const styles = StyleSheet.create({
   },
   welcome: {
     fontSize: 20,
+    color: '#FFF',
+    textShadowColor: '#FFF000',
+    textShadowRadius: 10,
     textAlign: 'center',
     margin: 10,
   },
@@ -17,12 +20,9 @@ const styles = StyleSheet.create({
 
 export default function App() {
   return (
-    <View style={styles.conteiner}>
+    <View style={styles.container}>
       <Text style={styles.welcome}>Welcome to React Native</Text>
-      <Text style={styles.welcome}>Abaixo 1ss1 </Text>
-      <Text style={styles.welcome}>Abaixo 1ss2 </Text>
-      <Text style={styles.welcome}>Abaixo 1ss3 </Text>
-      <Text style={styles.welcome}>Welcome to React Native</Text>
+      <Text style={styles.welcome}>Abaixo</Text>
     </View>
   );
 }
